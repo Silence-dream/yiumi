@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <div id="malita">
+    <span>loading...</span>
+  </div>
+
+  <script src="./node_modules//babel-standalone/babel.min.js"></script>
+  <script src="./node_modules/react/umd/react.development.js"></script>
+  <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+  <script type="text/babel">
+    const Hello = () => {
+      const [text, setText] = React.useState('Hello Malita!');
+      return React.createElement("span", {
+        onClick: () => {
+          setText('Hi!');
+        }
+      }, text);
+    };
+
+    const root = ReactDOM.createRoot(document.getElementById('malita'));
+    root.render(React.createElement(Hello));
+  </script>
+</body>
+
+</html>
