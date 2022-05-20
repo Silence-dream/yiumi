@@ -1,0 +1,5 @@
+# 声明我们的 packages 和 examples 下的包，都是我们的 workspace 
+# https://juejin.cn/post/7086104065859551239#heading-4
+packages:
+  - 'packages/*'
+  - 'examples/*'

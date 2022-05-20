@@ -1,14 +1,7 @@
 {
-  "name": "yiumi",
-  "version": "1.0.1",
-  "description": "暂无",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "hello": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "yiumi": "./bin/yiumi.js"
+    "hello": "yiumi"
   },
   "repository": {
     "type": "git",
@@ -19,10 +12,5 @@
   "bugs": {
     "url": "https://github.com/Silence-dream/yiumi/issues"
   },
-  "homepage": "https://github.com/Silence-dream/yiumi#readme",
-  "dependencies": {
-    "babel-standalone": "^6.26.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  }
+  "homepage": "https://github.com/Silence-dream/yiumi#readme"
 }

@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
-"yiumi@file:C:/Users/Admin/AppData/Roaming/npm/node_modules/yiumi":
-  "resolved" "file:C:/Users/Admin/AppData/Roaming/npm/node_modules/yiumi"
-  "version" "1.0.0"
+"yiumi@file:../..":
+  "resolved" "file:../.."
+  "version" "1.0.1"
+  dependencies:
+    "babel-standalone" "^6.26.0"
+    "react" "^18.1.0"
+    "react-dom" "^18.1.0"
