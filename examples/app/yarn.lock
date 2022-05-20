@@ -2,10 +2,11 @@
 # yarn lockfile v1
 
 
-"yiumi@file:../..":
-  "resolved" "file:../.."
+"yiumi@file:../../packages/yiumi":
+  "resolved" "file:../../packages/yiumi"
   "version" "1.0.1"
   dependencies:
     "babel-standalone" "^6.26.0"
+    "commander" "^9.2.0"
     "react" "^18.1.0"
     "react-dom" "^18.1.0"
